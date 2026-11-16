@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300">
+  <defs>
+    <linearGradient id="mtpri" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#367CFF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="mtacc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00D9FF"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="160" cy="150" r="122" fill="#00D9FF" opacity="0.12"/>
+  <!-- Stack of Digital Books -->
+  <rect x="48" y="220" width="192" height="34" rx="9" fill="url(#mtpri)"/>
+  <rect x="62" y="232" width="74" height="6" rx="3" fill="#E6EDF7" opacity="0.8"/>
+  <rect x="62" y="186" width="172" height="34" rx="9" fill="#121B2B" stroke="#00D9FF" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="76" y="198" width="64" height="6" rx="3" fill="#00D9FF" opacity="0.85"/>
+  <rect x="54" y="152" width="182" height="34" rx="9" fill="#172338" stroke="#8B5CF6" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="68" y="164" width="82" height="6" rx="3" fill="#8B5CF6" opacity="0.9"/>
+  <!-- Open Holographic Book -->
+  <path d="M120 68c-24-12-48-12-70-4v78c22-8 46-8 70 4z" fill="#121B2B" stroke="#367CFF" stroke-width="2"/>
+  <path d="M120 68c24-12 48-12 70-4v78c-22-8-46-8-70 4z" fill="#172338" stroke="#00D9FF" stroke-width="2"/>
+  <g stroke="#00D9FF" stroke-width="3.5" stroke-linecap="round">
+    <path d="M66 88c14-4 30-3 44 3"/>
+    <path d="M66 104c14-4 30-3 44 3"/>
+    <path d="M66 120c14-4 30-3 44 3"/>
+    <path d="M130 91c14-6 30-7 44-3" stroke="#8B5CF6"/>
+    <path d="M130 107c14-6 30-7 44-3" stroke="#8B5CF6"/>
+  </g>
+  <!-- Cloud Upload Badge -->
+  <g transform="translate(202 56)">
+    <path d="M30 78a26 26 0 0 1 4-51 36 36 0 0 1 68 8 22 22 0 0 1-2 43z" fill="#121B2B" stroke="#00D9FF" stroke-width="2"/>
+    <circle cx="66" cy="52" r="22" fill="url(#mtacc)"/>
+    <path d="M66 62V42m-9 9l9-10 9 10" stroke="#080B14" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Glowing Idea Bulb -->
+  <g transform="translate(236 168)">
+    <circle cx="28" cy="28" r="25" fill="#F59E0B" fill-opacity="0.2" stroke="#F59E0B" stroke-width="2.5"/>
+    <rect x="18" y="52" width="20" height="9" rx="3" fill="#8EA0BC"/>
+    <path d="M20 26l8 10 8-10" stroke="#F59E0B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M40 28l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#00D9FF"/>
+</svg>
